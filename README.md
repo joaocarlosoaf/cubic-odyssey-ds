@@ -36,7 +36,7 @@ STEAM_AUTH=
 SERVER_NAME=My Cubic Odyssey Server
 SERVER_PASSWORD=server_password
 MAX_PLAYERS=10
-GAME_MODE=SURVIVAL
+GAME_MODE=ADVENTURE
 ```
 
 ### 4. Run the server
@@ -56,7 +56,7 @@ All configurations are made through the `.env` file:
 | `SERVER_NAME` | `Cubic Odyssey Dedicated Server (Docker)` | Server name |
 | `SERVER_PASSWORD` | - | Server password (leave empty for public) |
 | `MAX_PLAYERS` | `8` | Maximum number of players |
-| `GAME_MODE` | `ADVENTURE` | Game mode (`ADVENTURE`, `CREATIVE`, `SURVIVAL`) |
+| `GAME_MODE` | `ADVENTURE` | Game mode (`ADVENTURE`, `CREATIVE`) |
 | `PRIVATE_SERVER` | `FALSE` | Private server (`TRUE`/`FALSE`) |
 | `GALAXY_SEED` | `21945875634` | Universe seed |
 | `STARTING_PORT` | `27001` | Starting port |
