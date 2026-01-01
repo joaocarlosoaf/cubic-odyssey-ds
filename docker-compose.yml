@@ -1,0 +1,12 @@
+services:
+  cubic-odyssey:
+    build: .
+    container_name: cubic-odyssey-ds
+    env_file: .env
+    volumes:
+      - ./data:/server
+    ports:
+      - "27001-27015:27001-27015/udp"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
